@@ -1,5 +1,8 @@
 ; file: skel.asm
 ;
+; To compile executable (linux):
+; nasm -f elf skel.asm
+; gcc -o skel driver.c skel.o asm_io.o
 
 %include "asm_io.inc"
 
