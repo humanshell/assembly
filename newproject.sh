@@ -7,6 +7,7 @@ mkdir $NAME
 cp examples/linux/asm_io.inc $NAME/
 cp examples/linux/driver.c $NAME/
 cp examples/linux/cdecl.h $NAME/
-cat examples/linux/skel.asm | sed "s/skel/$NAME/" > $NAME/${NAME}.asm
+cp examples/linux/asm_io.o $NAME/
+cat examples/linux/skel.asm | sed "s/skel/$NAME/g" > $NAME/${NAME}.asm
 echo "# $NAME" > $NAME/README.md
 
