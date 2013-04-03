@@ -7,11 +7,11 @@ Vagrant.configure('2') do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = 'arch64'
+  config.vm.box = 'arch32'
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = '~/Dropbox/Public/vagrant/arch-64-2013-3-1.box'
+  config.vm.box_url = '~/Dropbox/Public/vagrant/arch-32-2013-4-1.box'
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
