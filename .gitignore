@@ -1,6 +1,5 @@
 .vagrant
 .DS_Store
 euclid/euclid
-euclid/asm_io.o
 euclid/euclid.o
 
